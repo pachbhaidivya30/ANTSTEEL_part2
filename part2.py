@@ -12,7 +12,7 @@ if __name__ == '__main__':
     utilization=float(input("Enter the utilization in %: "))
     Anticipated_product_mix=float(input("Enter anticipated product mix in %: "))
     print("Production rate per month is: ",production_per_month(production_rate_per_hour,no_of_working_days,utilization,Anticipated_product_mix))
-    print("Production rate per month is: ",production_per_year(production_rate_per_hour, no_of_working_days, utilization, Anticipated_product_mix))
+    print("Production rate per year is: ",production_per_year(production_rate_per_hour, no_of_working_days, utilization, Anticipated_product_mix))
     
     
 
